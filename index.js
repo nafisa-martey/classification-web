@@ -15,15 +15,22 @@
  * =============================================================================
  */
 const CLASSES_NAMES = {
-  0: 'apple',
-  1: 'avocado',
-  2: 'banana',
-  3: 'carrot',
-  4: 'lettuce',
-  5: 'onion',
-  6: 'pepper',
-  7: 'potato',
-  8: 'tomato',
+  0: 'FreshApple',
+  1: 'FreshBanana',
+  2: 'FreshGrape',
+  3: 'FreshGuava',
+  4: 'FreshJujube',
+  5: 'FreshOrange',
+  6: 'FreshPomegranate',
+  7: 'FreshStrawberry',
+  8: 'RottenApple',
+  9: 'RottenBanana',
+  10: 'RottenGrape',
+  11: 'RottenGuava',
+  12: 'RottenJujube',
+  13: 'RottenOrange',
+  14: 'RottenPomegranate',
+  15: 'RottenStrawberry'
  }
 
 const MOBILENET_MODEL_PATH =
