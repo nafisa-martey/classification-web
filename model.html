@@ -1,19 +1,12 @@
 <!doctype html>
+
 <head>
-  <head>
-  <title>Food Detector</title>
+  <title>Project Classification+X</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="about.css" />
-  <script src="index.js"></script>
+  <link rel="stylesheet" href="shared/tfjs-examples.css" />
 </head>
-  
- <header>
-    <div class="tfjs-example-container">
-    <section class='title-area'>
-      <h1>AI Scholars: Spoiled Food Classifier</h1>
-  </header>
-      
+
 <style>
   .pred-container {
     margin-bottom: 20px;
@@ -52,10 +45,6 @@
       </p>
     </section>
 
-<!--     <section>
-   <img src="fruit.jpg" style="width: 100%;" alt="picture of fruits and veggies" />
-    </section> -->
-
     <section>
       <p class='section-head'>Status</p>
       <div id="status"></div>
@@ -64,17 +53,16 @@
     <section>
       <p class='section-head'>Model Output</p>
 
-      <div id="file-container" >
+      <div id="file-container" style="display: none">
         Upload an image: <input type="file" id="files" name="files[]" multiple />
       </div>
 
       <div id="predictions"></div>
 
-      <img id="cat" src="ai4all.jpg" width=224 height=224 />
+      <img style="display: none" id="cat" src="ai4all.jpg" width=224 height=224 />
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2"></script>
-    <script src="script.js"></script>
-    
+    <script src="index.js"></script>
   </div>
-</body>      
+</body>
